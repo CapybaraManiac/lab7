@@ -133,7 +133,7 @@ private fun LightDarkThemeItem() {
                 .align(alignment = Alignment.CenterVertically)
         )
         Switch(checked = NotesThemeSettings.isDarkThemeEnabled,
-            onCheckedChange ={ NotesThemeSettings.isDarkThemeEnabled = it },
+            onCheckedChange = { NotesThemeSettings.isDarkThemeEnabled = it },
             modifier = Modifier
                 .padding(start = 8.dp, end = 8.dp)
                 .align(alignment = Alignment.CenterVertically)
