@@ -41,7 +41,7 @@ class MainViewModel(private val repository: Repository) : ViewModel() {
         // TODO - Open SaveNoteScreen in Edit mode
         _noteEntry.value = note
         NotesRouter.navigateTo(Screen.SaveNote)
-
+    }
         fun onNoteCheckedChange(note: NoteModel) {
             viewModelScope.launch(Dispatchers.Default) {
                 repository.insertNote(note)
