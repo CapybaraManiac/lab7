@@ -16,7 +16,7 @@ import com.topic2.android.notes.routing.Screen
 import com.topic2.android.notes.viewmodel.MainViewModel
 import kotlinx.coroutines.launch
 import ui.components.AppDrawer
-import ui.components.Note
+import Note
 
 private const val NO_DIALOG = 1
 private const val RESTORE_NOTES_DIALOG = 2
